@@ -1,0 +1,35 @@
+# Ignore virtual environments
+venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore model checkpoints & large files
+pneumonia_model.h5
+*.h5
+*.hdf5
+*.tflite
+*.onnx
+
+# Ignore dataset files (DON'T upload large datasets)
+dataset/
+*.csv
+*.zip
+*.tar.gz
+
+# Ignore logs & cache
+logs/
+*.log
+.cache/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Streamlit temporary files
+.streamlit/
